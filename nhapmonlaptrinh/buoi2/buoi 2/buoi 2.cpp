@@ -1,15 +1,7 @@
 #include <iostream>
-using namespace std;
-void baitap() {
-#include 
-#include 
-#include 
 	using namespace std;
 	int main()
 		void baitap() {
-#include 
-#include 
-#include 
 		using namespace std;
 		int main()
 		{
@@ -62,4 +54,14 @@ void baitap() {
 			cout << "Trung binh: " << fixed << setprecision(2) << trungbinh;
 			return 0;
 		}
+	}
+	int main()
+	{
+		const float PI = 3.14;
+		//Viet chuong trinh tinh dien tich va chu vi hinh tron voi r 
+		int r;
+		cout << "Nhap ban kinh r: ";
+		cin >> r;
+		cout << "Dien tich: " << PI * r * r << endl;
+		cout << "Chu vi: " << 2 * PI * r << endl;
 	}
