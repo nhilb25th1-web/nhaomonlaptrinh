@@ -15,12 +15,12 @@ int main()
     /*tonggiatriam(a, n);*/
     /*sapxep(a, n);*/
     /*output(a, n);*/
-    int kq = giaitriduongdautien(a, n);
+    int kq = giaitrichancuoicung(a, n);
     if (kq == -1) {
-        cout << "Khong co gia tri trong mang" << endl;
+        cout << "Khong co gia tri chan trong mang" << endl;
     }
     else {
-        cout << "Gia tri duong dau tien: " << kq << endl;
+        cout << "Gia tri chan cuoi cung: " << kq << endl;
     }
 
 }

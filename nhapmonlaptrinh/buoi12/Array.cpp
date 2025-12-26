@@ -94,3 +94,11 @@ int giaitriduongdautien(int b[], int n) {
 }
 
 
+int giaitrichancuoicung(int b[], int n) {
+for (int i = n - 1; i >= 0; i--) {
+	if (b[i] % 2 == 0)
+		return b[i];
+}
+return -1;
+}
+
