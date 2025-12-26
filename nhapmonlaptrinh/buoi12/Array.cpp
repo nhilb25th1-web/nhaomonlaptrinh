@@ -85,4 +85,12 @@ void sapxep(int b[], int n) {
 		}
 			
 }
+int giaitriduongdautien(int b[], int n) {
+	for (int i = 0; i < n; i++) {
+		if (b[i] > 0)
+			return b[i];
+	}
+	return -1;
+}
+
 
