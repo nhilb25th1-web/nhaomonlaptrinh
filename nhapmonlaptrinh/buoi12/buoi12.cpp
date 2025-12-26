@@ -10,5 +10,6 @@ int main()
     /*vitriam(a, n);*/
     /*giatrilonnhat(a, n);*/
     /*vitrinhonhat(a, n);*/
-    nguyentonhohon100(a, n);
+    /*nguyentonhohon100(a, n);*/
+    tonggiatriam(a, n);
 }
